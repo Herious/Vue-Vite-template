@@ -1,23 +1,34 @@
 <template>
-  <div>
-    vite+vue3初始模板
-  </div>
 </template>
 
-<script lang="ts">
 
-export default {
-  setup() {},
-  data() {
-    return {
-    };
-  },
-};
+<script>
+  export default {
+		
+    data() {
+      return {
+      }
+		},
+
+		mounted() {
+
+		},
+
+		methods: {
+		}
+  }
 </script>
 
+<style scoped>
+
+</style>
+
 <style>
-  div {
-    text-align: center;
-    margin-top: 10vh;
-  }
+@media (max-width: 500px) {
+	.el-message-box {
+		width: 80% !important;
+		/* margin-top: 20%; */
+	}	
+	
+}
 </style>
